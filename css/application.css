@@ -1,0 +1,240 @@
+/* COMMON */
+body {
+  background:rgb(9,24,31);
+  font-family:'Telex', sans-serif;
+}
+h2 {
+  margin-bottom:20px;
+  padding:10px 0;
+  font-size:18px;
+  color:rgb(195,34,34);
+  border-bottom:1px solid rgba(255,255,255,0.5);
+}
+a:link,
+a:visited {
+  color:rgb(40,118,199);
+  text-decoration:none;
+}
+a:hover,
+a:active {
+  color:rgb(147,101,24);
+}
+img {
+  display:block;
+}
+footer a:link,
+footer a:visited {
+  color:rgb(147,101,24);
+}
+footer a:hover,
+footer a:active {
+  color:rgb(40,118,199);
+}
+
+/* CONTAINER */
+#container {
+  width:960px;
+  margin:0 auto;
+}
+#main {
+  overflow:hidden;
+}
+
+/* HEADER */
+#container>header,
+#container>header nav {
+  margin-top:40px;
+  overflow:hidden;
+  text-align:center;
+}
+#container>header h1 {
+  color:rgb(195,34,34);
+  font-size:28px;
+}
+#container>header .tagline {
+  display:block;
+  margin-top:10px;
+  font-size:14px;
+  color:white;
+}
+#container>header nav {
+  background:rgba(0,0,0,0.4)
+}
+#container>header a:link,
+#container>header a:visited {
+  display:block;
+  width:25%;
+  padding:10px 0;
+  float:left;
+  font-size:18px;
+}
+#container>header a:hover,
+#container>header a:active {
+  background:rgba(255,255,255,0.1);
+}
+/* MAIN (common) */
+#main {
+  margin-top:40px;
+}
+/* MAIN > CONTENT */
+#main>#content {
+  width:75%;
+  float:left;
+}
+#main>#content > section > header,
+#main>#content > section > ul {
+  margin-right:40px;
+}
+
+#main>#content article {
+  margin-bottom:20px;
+  border-bottom:1px solid rgba(255,255,255,0.2);
+  font-size:16px;
+}
+#main>#content article h3 {
+  margin-bottom:20px;
+  font-size:24px;
+  line-height:1.4;
+}
+#main>#content article p,
+#main>#content article blockquote {
+  font-size:16px;
+  color:white;
+  color:rgba(255,255,255,0.5);
+  margin-bottom:20px;
+  line-height:1.6;
+}
+#main>#content article blockquote footer {
+  display:inline;
+  padding:0;
+  background:none;
+}
+#main>#content article footer {
+  padding:10px;
+  background:rgba(0,0,0,0.2);
+  color:rgba(255,255,255,0.5);
+  font-size:14px;
+}
+/* MAIN > EXTRAS */
+#main>#extras {
+  width:25%;
+  float:right;
+  color:rgba(255,255,255,0.5);
+  font-size:16px;
+}
+#extras>section {
+  margin-bottom:20px;
+  background:rgba(0,0,0,0.5);
+}
+#extras article {
+  padding-bottom:10px;
+}
+#extras header {
+  padding:10px 0 10px 0;
+  margin-bottom:10px;
+  text-align:center;
+  background:rgba(0,0,0,0.5);
+}
+#extras h2 {
+  margin-bottom:0;
+}
+#extras ul,
+#extras footer {
+  margin:0 0 10px 20px;
+}
+#extras ul {
+  margin-bottom:5px;
+}
+#extras li {
+  line-height:1.6;
+}
+
+/* EXTRAS > BUDDIES */
+#extras .buddies ul,
+#extras .buddies footer {
+  margin:0;
+  padding:0;
+}
+.buddies blockquote {
+  background:rgba(255,255,255,0.8);
+}
+.buddies blockquote p {
+  padding:10px;
+  color:rgba(0,0,0,0.8);
+}
+.buddies blockquote footer {
+  overflow:hidden;
+  line-height:40px;
+  background:rgba(0,0,0,0.8);
+}
+.buddies > footer a {
+  display:block;
+  padding:10px;
+  text-align:center;
+}
+
+/* USER MODULE */
+.user img {
+  width:40px;
+  height:40px;
+  float:left;
+  margin-right:15px;
+}
+.user a.buddy-up {
+  width:40px;
+  text-align:center;
+  color:rgb(195,34,34);
+}
+.user a:first-child {
+  float:left;
+}
+.user a:last-child {
+  float:right;
+}
+
+/* EXTRAS > TOPICS NAV */
+#extras h2 {
+  margin-bottom:0;
+  padding:10px;
+}
+
+#extras .topics ul {
+  margin:0;
+  padding:0;
+  overflow:hidden;
+}
+#extras .topics li {
+  width:33.3333%;
+  float:left;
+}
+#extras .topics a:link,
+#extras .topics a:visited {
+  display:block;
+  width:100%;
+  line-height:50px;
+  float:left;
+  text-align:center;
+}
+#extras .topics a:hover,
+#extras .topics a:active {
+  background:rgba(255,255,255,0.2);
+}
+
+/* footer */
+#container>footer {
+  margin-top:40px;
+  background:rgba(0,0,0,0.5);
+  padding:20px;
+  font-size:14px;
+  color:white;
+  color:rgba(255,255,255,0.6);
+  text-align:center;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+Dear Mr. or Mrs. Web Developer,
+
+CodeBuddy was originally built with Twitter Bootstrap, but we recently decided we no longer wish to use it.
+
+Our last developer removed all the bootstrap files, and did a very nice job refactoring the site's HTML structure. He also managed to keep all the colors and font-sizing intact in our CSS. Regrettably, last week he went to see the circus one night after work and we haven't seen or heard from him since.
+
+Sumeet spoke very highly of your abilities and we're looking forward to working with you. We need your expertise in order to get the site to look like it did prior to removing Bootstrap--screenshot attached--before our big launch party.
+
+VERY, VERY IMPORTANT: Do not edit the HTML files! We only need you to update the CSS files, and we'll deploy them to our CDN when you're finished.
+
+Let me know if you have any questions, and thank you for helping us out on such short notice.
+
+Thanks!
+
+PuppyMan
+puppyman@codebuddy.me
