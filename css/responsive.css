@@ -1,0 +1,29 @@
+@media screen and (max-width: 960px) {
+  body {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #container {
+    width: 100%;
+  }
+
+  #main>#content,
+  #main>#extras {
+    float:none;
+    width: 100%;
+  }
+
+  #main > #content > section > header,
+  #main > #content > section > ul {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #container>header a:link,
+  #container>header a:visited {
+    width: 100%;
+    float: none;
+  }
+}
